@@ -2,8 +2,10 @@
 
 ##  Data Source: Kaggle
 
+##  This project bridges data science and business strategy, demonstrating how data-driven insights can optimize insurance pricing. The dashboard enables interactive exploration of premium estimation and claim patterns.
+
 ## 🔍 Overview  
-This project explores the relationship between **age, BMI, and smoking status** in determining **insurance claim amounts** and applies **predictive modeling** to estimate premiums. Using **Pandas, Seaborn, and Scikit-Learn**, I analyzed trends, built machine learning models, and developed a **risk-based premium pricing strategy**.
+It explores the relationship between **age, BMI, and smoking status** in determining **insurance claim amounts** and applies **predictive modeling** to estimate premiums. Using **Pandas, Seaborn, and Scikit-Learn**, I analyzed trends, built machine learning models, and developed a **risk-based premium pricing strategy**.
 
 ---
 
