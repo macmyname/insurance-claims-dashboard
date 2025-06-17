@@ -1,42 +1,74 @@
-# 📊 Insurance Claims Analysis & Premium Prediction  
+# 🧾 Insurance Claims Analysis & Premium Estimator
 
-##  Data Source: Kaggle
+This project explores a dataset of insurance claims using Python and builds a tool to estimate insurance premiums based on user characteristics. It includes both a detailed Jupyter notebook for analysis and a live interactive dashboard built with Streamlit.
 
-##  This project bridges data science and business strategy, demonstrating how data-driven insights can optimize insurance pricing. The dashboard enables interactive exploration of premium estimation and claim patterns.
+The dataset used in this project is sourced from [Kaggle].  
+It contains insurance-related fields such as age, BMI, smoker status, and amount (claims incurred).  
 
-## 🔍 Overview  
-It explores the relationship between **age, BMI, and smoking status** in determining **insurance claim amounts** and applies **predictive modeling** to estimate premiums. Using **Pandas, Seaborn, and Scikit-Learn**, I analyzed trends, built machine learning models, and developed a **risk-based premium pricing strategy**.
+## 🔍 What’s Inside
 
----
+### 1. Jupyter Notebook (`analysis.ipynb`)
+A complete walkthrough of the dataset:
+- Data cleaning and preprocessing
+- Feature engineering (e.g., adjusted premiums based on age and smoker status)
+- Exploratory data analysis (EDA)
+- Linear regression model to predict insurance premiums
+- Insightful observations and charts
 
-## 🚀 Features  
-- **Exploratory Data Analysis (EDA)** to uncover claim amount trends  
-- **Correlation Heatmap** for identifying key risk factors  
-- **Boxplots & Histograms** to visualize claim distributions  
-- **Linear Regression Model** to predict claim amounts  
-- **Adjusted Premium Calculation** based on risk factors  
+### 2. Streamlit App (`streamlit_app.py`)
+An interactive web dashboard where users can:
+- Enter their age, BMI, and smoking status to estimate premium
+- View average premiums by smoker type
+- Explore a scatter plot showing claims vs age
+- See a summary table of sample policyholders
+- Select insurance coverage type (Basic, Enhanced, Comprehensive) to view general advice
 
----
+📍 **Live Dashboard**: [streamlit link]
 
-## 📈 Key Insights  
-✅ **Smokers tend to have higher claim amounts** 💰  
-✅ **Age shows a moderate correlation with claims** 📊  
-✅ **BMI has a slight impact, but less significant than smoking** 🏥  
-✅ **Risk-adjusted premiums** improve pricing fairness  
+## 📊 Key Features
 
----
+- **Interactive Widgets**: Sliders, dropdowns, and dynamic outputs
+- **Data Visualization**: Uses both Matplotlib and Plotly to visualize claims and trends
+- **Machine Learning**: Linear regression predicts personalized insurance premiums
+- **User-Friendly Design**: Tailored content based on user input
 
-## 🔬 Methodology  
-1️⃣ **Data Cleaning & Transformation** 🧼  
-2️⃣ **EDA: Visualizing Claim Trends** 🎨  
-3️⃣ **Correlation Analysis: Identifying Risk Factors** 🔍  
-4️⃣ **Machine Learning: Predicting Premiums** 🤖  
-5️⃣ **Visualization** 🌐  
+## 💾 Dataset
+The dataset (`insurance.csv`) contains:
+- Age, sex, BMI, smoking status, region
+- Amount (claims incurred)
 
----
+## 🛠️ Tech Tools
+- Python
+- Pandas, NumPy
+- Scikit-learn (for regression)
+- Matplotlib & Plotly
+- Streamlit
 
-## 🛠️ Technologies Used  
-- **Python** (Pandas, NumPy, Seaborn, Matplotlib)  
-- **Machine Learning** (Scikit-Learn, Linear Regression)  
-- **Jupyter Notebook** (Analysis & Modeling)  
+## 🚀 How to Run Locally
 
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/macmyname/insurance-claims-dashboard.git
+   
+2. Install the dependencies
+   pip install -r requirements.txt
+
+3. Launch the dashboard
+   streamlit run streamlit_app.py
+
+🗂️ Files Included
+insurance.csv - Main dataset
+analysis.ipynb - Initial analysis & modeling
+streamlit_app.py - Dashboard app
+README.md - This file
+requirements.txt - Python packages
+
+👤 Author
+Motunrayo Awe
+www.linkedin.com/in/motunrayo-awe-mac
+Focused on data-driven insights in insurance, claims, and health analytics.
+
+📝 Notes
+Dataset used includes amount (claims incurred), not actual premiums.
+"Basic", "Enhanced", and "Comprehensive" insurance types are illustrative only.
+Adjusted premiums are based on age and smoker status.
