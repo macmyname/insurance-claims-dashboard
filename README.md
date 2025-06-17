@@ -63,12 +63,12 @@ streamlit_app.py - Dashboard app
 README.md - This file
 requirements.txt - Python packages
 
-👤 Author
+👤 Author:
 Motunrayo Awe
-www.linkedin.com/in/motunrayo-awe-mac
+_www.linkedin.com/in/motunrayo-awe-mac_
 Focused on data-driven insights in insurance, claims, and health analytics.
 
-📝 Notes
+📝 Notes:
 Dataset used includes amount (claims incurred), not actual premiums.
 "Basic", "Enhanced", and "Comprehensive" insurance types are illustrative only.
 Adjusted premiums are based on age and smoker status.
