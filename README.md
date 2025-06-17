@@ -51,9 +51,11 @@ The dataset (`insurance.csv`) contains:
    git clone https://github.com/macmyname/insurance-claims-dashboard.git
    
 2. Install the dependencies
+   ```bash
    pip install -r requirements.txt
 
 3. Launch the dashboard
+   ```bash
    streamlit run streamlit_app.py
 
 🗂️ Files Included
