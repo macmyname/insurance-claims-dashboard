@@ -23,7 +23,7 @@ An interactive web dashboard where users can:
 - See a summary table of sample policyholders
 - Select insurance coverage type (Basic, Enhanced, Comprehensive) to view general advice
 
-📍 **Live Dashboard**: [streamlit link]
+📍 **Youtube**: [https://youtu.be/IwABB37VHCc]
 
 ## 📊 Key Features
 
@@ -68,7 +68,7 @@ requirements.txt - Python packages
 👤 Author:
 Motunrayo Awe
 _www.linkedin.com/in/motunrayo-awe-mac_
-Focused on data-driven insights in insurance, claims, and health analytics.
+Focused on data-driven insights in health analytics.
 
 📝 Notes:
 Dataset used includes amount (claims incurred), not actual premiums.
