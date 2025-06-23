@@ -6,7 +6,7 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression
 
 # Load data
-df = pd.read_csv("data/insurance.csv")
+df = pd.read_csv("insurance.csv")
 
 # Estimate Premium (based on risk factors from amount paid)
 df["estimated_premium"] = df["amount"] * np.where(df["smoker"] == "yes", 1.2, 1.0) * np.where(df["age"] > 50, 1.1, 1.0)
